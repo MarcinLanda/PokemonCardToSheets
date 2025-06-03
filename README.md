@@ -11,7 +11,7 @@ PokemonCardToSheets is a Python application that updates a google sheet for a Po
 - ## Application Walkthrough
 When you first run the program, nothing will happen unless there already is a connected google sheet with characters inside of the G column. If there are characters in the G column, the application will load and a popup will appear with the first Pokemon that contains a character in the G column. The user then interacts with the screen by either clicking on one of the cards, which automatically changes the image within the google sheets, removes the character(s) in the G column aswell as checks the have column to true, or clicking on the X or white space to exit out the application (this skips updating the card and goes straight onto the first card). This continues until every card that was marked as needing updating has been shown once.
 
-![Pick Card](PokemonCardToSheets/CardPNGs/PickCard.png "Pick Card")
+![Pick Card](CardPNGs/PickCard.png "Pick Card")
 
 - ## Hidden Neccessities
 A credentials.json file is required in order to connect each application to Google's sheets API which allows the application to edit a personal google sheet.
